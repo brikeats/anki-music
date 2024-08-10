@@ -26,3 +26,31 @@
 "Four flats (B, E, A, D), minor",F minor,
 "Five flats (B, E, A, D, G), minor",Bb minor,
 "Six flats (B, E, A, D, G, C), minor",Eb minor,uncommon
+C major,"No sharps/flats, major",
+G major,"One sharp (F), major",
+D major,"Two sharps (F, C), major",
+A major,"Three sharps (F, C, G), major",
+E major,"Four sharps (F, C, G, D), major",
+B major,"Five sharps (F, C, G, D, A), major",
+F# major,"Six sharps (F, C, G, D, A, E), major",uncommon
+C# major,"Seven sharps (F, C, G, D, A, E, B), major",rare
+A minor,"No sharps/flats, minor",
+E minor,"One sharp (F), minor",
+B minor,"Two sharps (F, C), minor",
+F# minor,"Three sharps (F, C, G), minor",
+C# minor,"Four sharps (F, C, G, D), minor",
+G# minor,"Five sharps (F, C, G, D, A), minor",
+D# minor,"Six sharps (F, C, G, D, A, E), minor",rare
+F major,"One flat (B), major",
+Bb  major,"Two flats (B, E), major",
+Eb major,"Three flats (B, E, A), major",
+Ab major,"Four flats (B, E, A, D), major",
+Db major,"Five flats (B, E, A, D, G), major",
+Gb major,"Six flats (B, E, A, D, G, C), major",uncommon
+Cb major,"Seven flats (B, E, A, D, G, C, F), major",rare
+D minor,"One flat (B), minor",
+G minor,"Two flats (B, E), minor",
+C minor,"Three flats (B, E, A), minor",
+F minor,"Four flats (B, E, A, D), minor",
+Bb minor,"Five flats (B, E, A, D, G), minor",
+Eb minor,"Six flats (B, E, A, D, G, C), minor",uncommon
