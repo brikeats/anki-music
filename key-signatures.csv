@@ -1,0 +1,28 @@
+﻿"No sharps/flats, major",C major,
+"One sharp (F), major",G major,
+"Two sharps (F, C), major",D major,
+"Three sharps (F, C, G), major",A major,
+"Four sharps (F, C, G, D), major",E major,
+"Five sharps (F, C, G, D, A), major",B major,
+"Six sharps (F, C, G, D, A, E), major",F# major,uncommon
+"Seven sharps (F, C, G, D, A, E, B), major",C# major,rare
+"No sharps/flats, minor",A minor,
+"One sharp (F), minor",E minor,
+"Two sharps (F, C), minor",B minor,
+"Three sharps (F, C, G), minor",F# minor,
+"Four sharps (F, C, G, D), minor",C# minor,
+"Five sharps (F, C, G, D, A), minor",G# minor,
+"Six sharps (F, C, G, D, A, E), minor",D# minor,rare
+"One flat (B), major",F major,
+"Two flats (B, E), major",Bb  major,
+"Three flats (B, E, A), major",Eb major,
+"Four flats (B, E, A, D), major",Ab major,
+"Five flats (B, E, A, D, G), major",Db major,
+"Six flats (B, E, A, D, G, C), major",Gb major,uncommon
+"Seven flats (B, E, A, D, G, C, F), major",Cb major,rare
+"One flat (B), minor",D minor,
+"Two flats (B, E), minor",G minor,
+"Three flats (B, E, A), minor",C minor,
+"Four flats (B, E, A, D), minor",F minor,
+"Five flats (B, E, A, D, G), minor",Bb minor,
+"Six flats (B, E, A, D, G, C), minor",Eb minor,uncommon
