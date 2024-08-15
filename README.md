@@ -26,6 +26,15 @@ Once you have a CSV, import it into Anki like so:
 
 ### Generate CSVs
 
-* [Install Lillypond](https://lilypond.org/download.html).
+* [Install Lillypond](https://lilypond.org/download.html). The scripts assume the `lilypond` binary is in your `PATH`.
 * Create python environment: `conda create -n anki python=3 -y && conda activate anki`
 * Install dependencies: `pip install requirements.txt`
+* Create images of key signatures: `python key_signatures.py`
+
+----
+
+Media: 
+
+Images/mp3s should go in `/Users/brian/Library/Application Support/Anki2/User 1/collection.media`. The image
+`/Users/brian/Library/Application Support/Anki2/User 1/collection.media/file0001.jpg` can be referenced in CSV by `<img src="file0001.jpg">`. It seems that subfolders are not allowed; media must be directly in `collections.media` folder.
+
