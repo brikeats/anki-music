@@ -11,6 +11,13 @@ Apparently, you need to use Anki Desktop to import CSVs; Ankiweb doesn't do it.
 * [Install Anki Desktop](https://apps.ankiweb.net/). Click sync button and enter Ankiweb credentials
 * You'll probably want to use the phone app for actual study. Install it, click the sync button and enter Ankiweb credentials
 
+### Generate CSVs
+
+* [Install Lillypond](https://lilypond.org/download.html). The scripts assume the `lilypond` binary is in your `PATH`.
+* Create python environment: `conda create -n anki python=3 -y && conda activate anki`
+* Install dependencies: `pip install requirements.txt`
+* Create images of key signatures: `python key_signatures.py`
+
 ### Import CSVs
 
 Anki can import data in CSV format. I prepared `relative-keys.csv` manually; some of the other CSVs can be created via Python scripts as described in the next section.
@@ -23,13 +30,6 @@ Once you have a CSV, import it into Anki like so:
 * In the import dialog, under "Import Options > Deck", select "Relative Keys"
 * Click "Import". Close the import dialog.
 * Click "Sync" to add it to your Ankiweb account
-
-### Generate CSVs
-
-* [Install Lillypond](https://lilypond.org/download.html). The scripts assume the `lilypond` binary is in your `PATH`.
-* Create python environment: `conda create -n anki python=3 -y && conda activate anki`
-* Install dependencies: `pip install requirements.txt`
-* Create images of key signatures: `python key_signatures.py`
 
 ----
 
