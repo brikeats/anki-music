@@ -16,19 +16,23 @@ Apparently, you need to use Anki Desktop to import CSVs; Ankiweb doesn't do it.
 * [Install Lillypond](https://lilypond.org/download.html). The scripts assume the `lilypond` binary is in your `PATH`.
 * Create python environment: `conda create -n anki python=3 -y && conda activate anki`
 * Install dependencies: `pip install requirements.txt`
-* Create images of key signatures: `python key_signatures.py`
+* Create CSV + images of key signatures: `python key_signatures.py`
+* Copy the images to the Anki media folder: `cp images/*.png "${HOME}/Library/Application Support/Anki2/User 1/collection.media"`
+* Import the newly-created `key_signatures.csv` as described in the following section
 
 ### Import CSVs
 
-Anki can import data in CSV format. I prepared `relative-keys.csv` manually; some of the other CSVs can be created via Python scripts as described in the next section.
-
-Once you have a CSV, import it into Anki like so:
+Anki can import data in CSV format. Once you have created a CSV, import it into Anki like so:
 
 * Open Anki Desktop
-* "Create Deck", name it "Relative Keys"
+* "Create Deck", name it
 * Click "Import File" and select the CSV
-* In the import dialog, under "Import Options > Deck", select "Relative Keys"
-* Click "Import". Close the import dialog.
+* In the import dialog:
+    * select "Comma" as the field separator
+    * ensure the "Allow HTML" switch is selected
+    * under "Import Options > Deck", select the correct deck from the dropdown
+    * under "Tags" dropdown, select column 3 (which is empty)
+* Click "Import". It show add 112 new cards. Close the import dialog.
 * Click "Sync" to add it to your Ankiweb account
 
 ----
