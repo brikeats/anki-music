@@ -80,7 +80,7 @@ if __name__ == '__main__':
 
 
     # create lilypond files
-    with open('template.ly') as f:
+    with open('key_signature_template.ly') as f:
         template = f.read()
     lilypond_dir = path.join(out_dir, 'lilypond')
     makedirs(lilypond_dir, exist_ok=True)
