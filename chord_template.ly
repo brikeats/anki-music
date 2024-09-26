@@ -5,9 +5,7 @@
   {
     \clef  ##CLEF##
     \key c \major
-    \relative {
-        ##NOTES##
-    }
+    ##NOTES##
   }
   \layout {
     \context {
